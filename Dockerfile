@@ -1,2 +1,2 @@
-FROM public.ecr.aws/z4b5k5r7/httpd:2.4
-COPY ./www/ /usr/local/apache/htdocs/
+FROM public.ecr.aws/ubuntu/apache2:latest
+COPY ./www/ /var/www/html/
